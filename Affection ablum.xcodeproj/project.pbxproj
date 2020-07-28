@@ -16,6 +16,8 @@
 		28E0A5B124C84CED00093A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E0A5AF24C84CED00093A78 /* LaunchScreen.storyboard */; };
 		28E0A5BC24C84CED00093A78 /* Affection_ablumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E0A5BB24C84CED00093A78 /* Affection_ablumTests.swift */; };
 		28E0A5C724C84CED00093A78 /* Affection_ablumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E0A5C624C84CED00093A78 /* Affection_ablumUITests.swift */; };
+		28E0A5D524CECC6700093A78 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E0A5D424CECC6700093A78 /* CircleImage.swift */; };
+		28E0A5D724CECE1F00093A78 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E0A5D624CECE1F00093A78 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		28E0A5C224C84CED00093A78 /* Affection ablumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Affection ablumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E0A5C624C84CED00093A78 /* Affection_ablumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affection_ablumUITests.swift; sourceTree = "<group>"; };
 		28E0A5C824C84CED00093A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E0A5D424CECC6700093A78 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		28E0A5D624CECE1F00093A78 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				28E0A5A324C84CEB00093A78 /* SceneDelegate.swift */,
 				28E0A5A824C84CEB00093A78 /* ContentView.swift */,
 				28E0A5AA24C84CED00093A78 /* Assets.xcassets */,
+				28E0A5D424CECC6700093A78 /* CircleImage.swift */,
+				28E0A5D624CECE1F00093A78 /* MapView.swift */,
 				28E0A5AF24C84CED00093A78 /* LaunchScreen.storyboard */,
 				28E0A5B224C84CED00093A78 /* Info.plist */,
 				28E0A5A524C84CEB00093A78 /* Affection_ablum.xcdatamodeld */,
@@ -271,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E0A5A224C84CEB00093A78 /* AppDelegate.swift in Sources */,
+				28E0A5D724CECE1F00093A78 /* MapView.swift in Sources */,
 				28E0A5A724C84CEB00093A78 /* Affection_ablum.xcdatamodeld in Sources */,
 				28E0A5A924C84CEB00093A78 /* ContentView.swift in Sources */,
 				28E0A5A424C84CEB00093A78 /* SceneDelegate.swift in Sources */,
+				28E0A5D524CECC6700093A78 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
